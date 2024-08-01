@@ -6,13 +6,13 @@ Simple React device emulator component for design display purposes.
 
 ### Install
 
-Installation: npm install react-simple-device-emulator
+Installation: `npm install react-simple-device-emulator`
 
 ### Usage
 
 Import the package into your app:
 
-import { DeviceComponent } from "react-simple-device-emulator";
+`import { DeviceComponent } from "react-simple-device-emulator";`
 
 #### Component options:
 ```
@@ -59,13 +59,12 @@ import { DeviceComponent } from "react-simple-device-emulator";
     - desktopBreakPoint={1024}
         Sets breakpoint - Used for responsive, set to your sites resonsive breakpoints
 ```
----
- ## Exmaple
+ ## Example
 
 ### Desktop example (1900px x 1000px)
 
- 	![Desktop device emulation example](https://raw.githubusercontent.com/RickyGoacher/react-simple-device-emulator/main/assets/images/desktop-emulator-demo.png)
+![Desktop device emulation example](https://raw.githubusercontent.com/RickyGoacher/react-simple-device-emulator/main/assets/images/desktop-emulator-demo.png)
 
 ### Mobile example (450px x 600px)
 
-    ![Mobile device emulation example](https://raw.githubusercontent.com/RickyGoacher/react-simple-device-emulator/main/assets/images/desktop-emulator-demo.png)
+![Mobile device emulation example](https://raw.githubusercontent.com/RickyGoacher/react-simple-device-emulator/main/assets/images/mobile-emulator-demo.png)

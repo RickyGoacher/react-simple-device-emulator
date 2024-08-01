@@ -1,0 +1,111 @@
+.device-container {
+    display: flex;
+    justify-content: center;
+}
+
+.mobile.device-wrapper {
+    background-color: #1d1f1e;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 32px;
+}
+
+.mobile .device-viewport {
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    border: solid 2px #585858;
+}
+
+.mobile .device-viewport iframe {
+    min-width: calc(100% + 17px);
+}
+
+.device-viewport iframe {
+    border: 0;
+}
+
+.device-viewport {
+    overflow-y: scroll;
+}
+
+.device-viewport img {
+    width: 100%;
+    height: unset;
+}
+
+.mobile .top-bar {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile .speaker {
+    width: 80px;
+    height: 6px;
+    border-radius: 12px;
+    background-color: #161616;
+    border: solid 1px #585858;
+}
+
+.mobile .bottom-bar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile .button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #161616;
+    border: solid 2px #585858;
+}
+
+.desktop.device-wrapper {
+    background-color: #1d1f1e;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 125px;
+} 
+
+.desktop .bottom-bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0 0 4px 4px;
+    background-color: #9f9fa4;
+    opacity: 1;
+    background-size: 4px 4px;
+    background-image: repeating-linear-gradient(45deg, #dedede 0, #dedede 0.4px, #9f9fa4 0, #9f9fa4 50%);
+    height: 100px;
+}
+
+.desktop .monitor-stand {
+    position: absolute;
+    bottom: -125px;
+    width: 150px;
+    height: 125px;
+    background-color: #9f9fa4;
+    left: calc(50% - 75px);
+}
+
+.desktop .monitor-bottom {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    bottom: 0;
+    background-color: #9f9fa4;
+    left: -75px;
+    border-radius: 50px;
+}

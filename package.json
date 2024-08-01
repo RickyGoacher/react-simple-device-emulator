@@ -1,0 +1,45 @@
+{
+  "name": "react-simple-device-emulator",
+  "version": "1.0.0",
+  "description": "Simple React device emulator component for design display purposes",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "React",
+    "Device-emulator",
+    "React-component",
+    "Mobile",
+    "Tablet",
+    "Desktop",
+    "Emulation",
+    "Simulation",
+    "Design"
+  ],
+  "author": "Ricky Goacher",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18",
+    "react": "^18",
+    "react-dom": "^18",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.3"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}

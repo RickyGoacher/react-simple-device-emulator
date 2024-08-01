@@ -16,7 +16,7 @@ import { DeviceComponent } from "react-simple-device-emulator";
 
 #### Component options:
 
-    `<DeviceComponent 
+    <DeviceComponent 
         deviceType={'mobile'} 
         deviceWidth={400} 
         deviceHeight={600} 
@@ -29,7 +29,6 @@ import { DeviceComponent } from "react-simple-device-emulator";
     >
         <iframe src="https://react.dev" height="100%" width="100%" title="Iframe Example" ></iframe>
     </DeviceComponent>
-    `
 
     The <DeviceComponent> can accept any element beteen the opening and closing tab to display in the viewport, but the default stlying only accomodates iframes and images. 
 

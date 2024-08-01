@@ -64,8 +64,8 @@ import { DeviceComponent } from "react-simple-device-emulator";
 
 ### Desktop example (1900px x 1000px)
 
- 	![Desktop device emulation example](/assets/images/desktop-emulator-demo.png)
+ 	![Desktop device emulation example](https://raw.githubusercontent.com/RickyGoacher/react-simple-device-emulator/main/assets/images/desktop-emulator-demo.png)
 
 ### Mobile example (450px x 600px)
 
-    ![Mobile device emulation example](/assets/images/mobile-emulator-demo.png)
+    ![Mobile device emulation example](https://raw.githubusercontent.com/RickyGoacher/react-simple-device-emulator/main/assets/images/desktop-emulator-demo.png)

@@ -28,35 +28,36 @@ import { DeviceComponent } from "react-simple-device-emulator";
         desktopBreakPoint={1024}
     >
         <iframe src="https://react.dev" height="100%" width="100%" title="Iframe Example" ></iframe>
-    </DeviceComponent>`
+    </DeviceComponent>
+    `
 
     The <DeviceComponent> can accept any element beteen the opening and closing tab to display in the viewport, but the default stlying only accomodates iframes and images. 
 
-    -  `deviceType={'mobile'}`
+    -  deviceType={'mobile'}
         Options: 'mobile', 'tablet', 'desktop'
 
-    -  `deviceWidth={400}`
+    -  deviceWidth={400}
         Sets device pixel width - Requires number.
 
-    -  `deviceHeight={600}` 
+    -  deviceHeight={600}
         Sets device pixel height - Requires number.
 
-    -  `scaleDesktop={1}`
+    -  scaleDesktop={1}
         Used to set the scale for desktop - This keeps the device dimensions, but scales down the size.
 
-    -  `scaleTablet={.6}`
+    -  scaleTablet={.6}
         Used to set the scale for tablet - This keeps the device dimensions, but scales down the size.
 
-    -  `scaleMobile={.8}`
+    -  scaleMobile={.8}
         Used to set the scale for mobile - This keeps the device dimensions, but scales down the size.
 
-    - `mobileBreakPoint={450}`
+    - mobileBreakPoint={450}
         Sets breakpoint - Used for responsive, set to your sites resonsive breakpoints
 
-    - `tabletBreakPoint={768}`
+    - tabletBreakPoint={768}
         Sets breakpoint - Used for responsive, set to your sites resonsive breakpoints
 
-    - `desktopBreakPoint={1024}`
+    - desktopBreakPoint={1024}
         Sets breakpoint - Used for responsive, set to your sites resonsive breakpoints
 
 ---

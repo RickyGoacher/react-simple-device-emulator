@@ -14,7 +14,7 @@ interface DevicePropsInterface {
     children: ReactNode;
 }
 
-const MobileComponent = (props:DevicePropsInterface) => {
+const DeviceComponent = (props:DevicePropsInterface) => {
 
     const [getScale, setScale] = useState(props.mobileBreakPoint);
     const [getWidth, setWidth] = useState(props.mobileBreakPoint);
@@ -42,10 +42,11 @@ const MobileComponent = (props:DevicePropsInterface) => {
     const Mobile = useMediaQuery(`(max-width: ${props.mobileBreakPoint}px)`);
     const Tablet = useMediaQuery(`(max-width: ${props.tabletBreakPoint}px)`);
     const Desktop = useMediaQuery(`(min-width: ${props.desktopBreakPoint}px)`);
+    const ContainerHeight = props.deviceType == "desktop" ? (props.deviceHeight * getScale) + 125 + "px" : props.deviceHeight * getScale + "px";
 
     return (
-        <div className="device-container" style={{width: getWidth}}>
-            <div className={"device-wrapper " + props.deviceType } style={{minWidth: props.deviceWidth, height: props.deviceHeight, scale: getScale }}>
+        <div className="device-container" style={{height: ContainerHeight}}>
+            <div className={"device-wrapper " + props.deviceType } style={{minWidth: props.deviceWidth, height: props.deviceHeight, scale: getScale}}>
                 <div className="top-bar">
                     <span className="speaker"></span>
                 </div>
@@ -65,4 +66,4 @@ const MobileComponent = (props:DevicePropsInterface) => {
     );
 }
 
-export default MobileComponent;
+export default DeviceComponent;
